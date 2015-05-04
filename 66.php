@@ -5,7 +5,7 @@ if($n1<10 and $n1>0 or $n1<0 and $n1>-10 ){
  echo "la desconposicion del numero <br>";
  echo "$n1";
 }
-else if($n1<100 and $n1>9 or $n1<-9 and $n1>-100 ){
+else if($n1<1000000 and $n1>10 or $n1<-9 and $n1>-100 ){
    $b=$n1%10;
    $a=$n1/10;
    $a=($a-($b/10))*10;
@@ -19,7 +19,7 @@ else if($n1<1000 and $n1>99 or $n1<-99 and $n1>-1000 ){
    $b=$b-$a;
    $c=$n1/100;
    $c=($c-(($b+$a)/100))*100;
-    echo "la desconposicion del numero <br>";
+    echo "la desconposicion del numerogxnj bghiuuydtydfjikdfodosdosuisstdhyudffpfpofgo0g <br>";
  echo "$c<br>";
  echo "$b<br>";
  echo "$a";
